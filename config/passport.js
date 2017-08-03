@@ -5,8 +5,8 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/User.js');
 
 
-const client_id = '75666700008d44f6b42f7c5a14c187ba'
-const client_secret = 'dbd2fb5468a74e08bfa9925054bcdddc'
+const client_id = 'CLIENT_ID'
+const client_secret = 'CLIENT_SECRET'
 
 passport.use(new SpotifyStrategy({
   clientID: client_id,
