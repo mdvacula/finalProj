@@ -22,16 +22,20 @@
     "react-router-redux": "^5.0.0-alpha.6",
     "react-scripts": "1.0.10",
     "redux": "^3.7.2",
-    "semantic-ui-react": "^0.71.2"
+    "semantic-ui-react": "^0.71.2",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "semantic-ui": "^2.2.11"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "snyk": true
 }
