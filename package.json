@@ -10,7 +10,7 @@
     "google-maps-react": "^1.1.0",
     "history": "^4.6.3",
     "jsonwebtoken": "^7.4.1",
-    "mongoose": "^4.11.4",
+    "mongoose": "^6.4.6",
     "morgan": "^1.8.2",
     "passport": "^0.3.2",
     "passport-spotify": "^0.3.1",
