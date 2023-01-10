@@ -10,7 +10,7 @@
     "google-maps-react": "^1.1.0",
     "history": "^4.6.3",
     "jsonwebtoken": "^7.4.1",
-    "mongoose": "^4.11.4",
+    "mongoose": "^5.2.6",
     "morgan": "^1.8.2",
     "passport": "^0.3.2",
     "passport-spotify": "^0.3.1",
@@ -20,9 +20,9 @@
     "react-router": "^4.1.2",
     "react-router-dom": "^4.1.2",
     "react-router-redux": "^5.0.0-alpha.6",
-    "react-scripts": "1.0.10",
+    "react-scripts": "2.1.3",
     "redux": "^3.7.2",
-    "semantic-ui-react": "^0.71.2"
+    "semantic-ui-react": "^0.71.5"
   },
   "scripts": {
     "start": "react-scripts start",
